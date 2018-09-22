@@ -1,4 +1,4 @@
-{% set version = '0.999-2' %}
+{% set version = "0.999-3" %}
 
 {% set posix = 'm2-' if win else '' %}
 {% set native = 'm2w64-' if win else '' %}
@@ -12,11 +12,11 @@ source:
   url:
     - https://cran.r-project.org/src/contrib/expm_{{ version }}.tar.gz
     - https://cran.r-project.org/src/contrib/Archive/expm/expm_{{ version }}.tar.gz
-  sha256: 38f1e5bfa90f794486789695d0d9e49158c7eb9445dc171dd83dec3d8fa130d6
+  sha256: 511bac5860cc5b3888bca626cdf23241b6118eabcc82d100935386039e516412
 
 build:
   merge_build_host: True  # [win]
-  number: 1
+  number: 0
   skip: true  # [win32]
 
   rpaths:
