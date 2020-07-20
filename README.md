@@ -3,7 +3,7 @@ About r-expm
 
 Home: http://R-Forge.R-project.org/projects/expm/
 
-Package license: GPL (>= 2)
+Package license: GPL-2.0-or-later
 
 Feedstock license: BSD-3-Clause
 
